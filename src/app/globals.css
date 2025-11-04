@@ -1,11 +1,20 @@
 @import "tailwindcss";
 
 :root {
-	--hotpink: #ff69b4;
+	--grass-green: #74c9a2;
+}
+
+.pixelated {
+	image-rendering: crisp-edges;
+	image-rendering: pixelated;
+}
+
+.play-font {
+	font-family: "Play", sans-serif;
 }
 
 main {
-	background: var(--hotpink);
+	background: var(--grass-green);
 	height: fit-content;
 	width: 100vw;
 	height: 100vh;
