@@ -1,9 +1,8 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 
 @theme {
 	--color-card-bg: #292929;
+	--text-shadow-main: 1px 1px 0 #837B73;
 }
 
 .pixelated {

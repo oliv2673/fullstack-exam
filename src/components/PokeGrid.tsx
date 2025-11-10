@@ -27,7 +27,7 @@ export default async function PokeGrid() {
 			.filter((t): t is TypeInfo => t !== null);
 
 	return (
-		<div className="grid gap-4 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+		<div className="grid gap-4 grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
 			{pokemons.map((pokemon) => (
 				<Card key={pokemon.id} pokemon={pokemon} types={makeTypeInfo(pokemon)} />
 			))}
