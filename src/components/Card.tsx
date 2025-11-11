@@ -14,7 +14,7 @@ interface CardProps {
 
 export default function Card({ pokemon, types }: CardProps) {
 	return (
-		<article className="relative rounded-xl shadow-lg p-6 bg-card-bg/25 backdrop-blur-[2px] text-shadow-main">
+		<article className="relative rounded-xl shadow-lg p-6 bg-card-bg/25 backdrop-blur-[3px] text-shadow-main">
 			<div className="space-y-2 mb-4 flex justify-end">
 
 				<h2 className="font-play text-2xl text-gray-300 text-white">#{String(pokemon.id).padStart(4, "0")}</h2>

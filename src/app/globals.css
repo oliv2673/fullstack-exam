@@ -3,6 +3,28 @@
 @theme {
 	--color-card-bg: #292929;
 	--text-shadow-main: 1px 1px 0 #837B73;
+
+
+	/* Pokemon types */
+	--color-type-normal: #a8a878;
+	--color-type-fight: #c03028;
+	--color-type-flying: #a890f0;
+	--color-type-dark: #705848;
+	--color-type-dragon: #7038f8;
+	--color-type-ice: #98d8d8;
+	--color-type-psychic: #f85888;
+	--color-type-electric: #f8d030;
+	--color-type-grass: #78c850;
+	--color-type-water: #6890f0;
+	--color-type-fire: #f08030;
+	--color-type-steel: #b8b8d0;
+	--color-type-ghost: #705898;
+	--color-type-bug: #a8b820;
+	--color-type-rock: #b8a038;
+	--color-type-ground: #e0c068;
+	--color-type-poison: #a040a0;
+	--color-type-fairy: #ffb1ff;
+
 }
 
 .pixelated {
@@ -16,6 +38,6 @@
 
 main {
 	height: fit-content;
-	width: 100vw;
 	height: auto;
+	padding: 2rem;
 }
